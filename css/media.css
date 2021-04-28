@@ -1,0 +1,54 @@
+/*start Media Query*/
+/*From 0 To Mobile*/
+@media(max-width:767px){
+
+    .navbar-inverse .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+     .navbar-collapse{
+      
+        background-color:black;
+     }
+     .navbar-collapse a{
+        color: white;
+     }
+     .navbar-toggler-icon{
+         color: white;
+     }
+    
+}
+/*From Small To Medium*/
+@media(min-width: 768px) and (max-width: 991px){
+    .services h2{
+    top:-60px;
+    
+    }
+    .our-clients h2{
+        top: -60px;
+      }
+      .our-clients{
+          margin-bottom: 50px;
+      }
+
+}
+
+    /*from medium to large*/
+  
+
+@media(min-width: 992px) and (max-width: 1199px){
+    .services .feat{
+margin-bottom: 30px;
+    }
+}
+
+  /*large screen*/
+  @media(min-width: 1200px) {
+   
+ }
+
+
+/*End Media Query*/
+
+
